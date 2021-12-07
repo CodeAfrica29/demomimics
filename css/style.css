@@ -257,7 +257,7 @@ width: 15%;
 
 #products {
     width: 80%;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
     float: right
 }
@@ -327,7 +327,7 @@ li a:hover {
     }
 
     .card {
-        width: 260px;
+        width: 270px;
         display: inline-block;
         height: 400px;
     }
@@ -337,7 +337,7 @@ li a:hover {
         height: 210px
     }
     .card-body {
-    padding: 5px;
+    padding: 15px;
     padding-left: 0px
 }
 
@@ -362,7 +362,7 @@ li a:hover {
     }
 
      .card-body {
-    padding: 20px;
+    padding: 5px;
     padding-left: 0px
 }
 
