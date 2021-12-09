@@ -482,7 +482,7 @@ color: #007bff;
 
 
 #products {
-    width: 50%;
+    width: 80%;
     padding: 10px;
     margin: 0;
     float: right
@@ -551,12 +551,6 @@ li a:hover {
     .nav-item {
         padding-left: 20px
     }
-	
-	#products {
-    width: 50%;
-    padding: 10px;
-    margin: 0;
-    float: right
 }
 
     .card {
@@ -700,11 +694,6 @@ visibility: hidden;
     }
 }
 
-.bttn{
-color: #0000ff;
-	
-	
-}
 	
 
 
