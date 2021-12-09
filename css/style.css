@@ -482,7 +482,7 @@ color: #007bff;
 
 
 #products {
-    width: 80%;
+    width: 50%;
     padding: 10px;
     margin: 0;
     float: right
@@ -520,9 +520,9 @@ li a:hover {
 }
 
 .card {
-    width: 320px;
+    width: 330px;
     display: inline-block;
-    height: 400px
+    height: 405px
 }
 
 .card-img-top {
@@ -551,6 +551,13 @@ li a:hover {
     .nav-item {
         padding-left: 20px
     }
+	
+	#products {
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+    float: right
+}
 
     .card {
         width: 260px;
