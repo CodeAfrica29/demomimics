@@ -173,6 +173,184 @@ const menu = document.querySelector(".menu");
 
 
 
+const header = document.querySelector('.Header');
+const nav = document.querySelector('.Navbar')
+const topOfNav = header.offsetTop;
+
+function fixNav(){
+    if (window.scrollY >= topOfNav){
+        nav.style.paddingTop = header.offsetHeight + 2 + 'px';
+    }
+    else{
+        nav.style.paddingTop = 0;
+    }
+}
+// for fixing the navbar at top
+window.addEventListener('scroll',fixNav);
+
+
+//About
+
+
+
+
+$(document).ready(function(){
+
+    // wow initiation
+    new WOW().init();
+
+    // navigation bar toggle
+    $('#navbar-toggler').click(function(){
+        $('.navbar-collapse').slideToggle(400);
+    });
+
+    // navbar bg change on scroll
+    $(window).scroll(function(){
+        let pos = $(window).scrollTop();
+        if(pos >= 100){
+            $('.navbar').addClass('cng-navbar');
+        } else {
+            $('.navbar').removeClass('cng-navbar');
+        }
+    });
+
+    // sample video popup
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+    
+            fixedContentPos: false
+        });
+    });
+
+    // team carousel 
+    $('.team .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        dots: true,
+        nav: false,
+        responsiveClass: true,
+        responsive:{
+            0:{
+                items: 1
+            }, 
+            600:{
+                items: 2
+            },
+            1000:{
+                items: 3
+            }
+        }
+    });
+
+    // faq accordion
+    $('.faq-head').each(function(){
+        $(this).click(function(){
+            $(this).next().toggleClass('show-faq-content');
+            let icon = $(this).children('span').children("i").attr('class');
+
+            if(icon == "fas fa-plus"){
+                $(this).children('span').html('<i class = "fas fa-minus"></i>');
+            } else {
+                $(this).children('span').html('<i class = "fas fa-plus"></i>');
+            }
+        });
+    });
+
+    // testimonial carousel 
+    $('.testimonial .owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: true,
+        nav: false,
+        items: 1
+    });
+
+});
+
+
+$(function () {
+    $('input, select').on('focus', function () {
+        $(this).parent().find('.input-group-text').css('border-color', '#80bdff');
+    });
+    $('input, select').on('blur', function () {
+        $(this).parent().find('.input-group-text').css('border-color', '#ced4da');
+    });
+});
+
+
+
+
+
+
+
+
+	
+	let container, ul, mic, search,li;
+
+
+	container= document.querySelector('container');
+	ul = document.querySelector('ul');
+	mic = document.getElementById('voice-search');
+	search = document.querySelector('input');
+	li =  document.getElementsByTagName('li');
+
+
+	// search Item
+	
+	search.onkeyup = ()=>{
+		const  x = search.value.toLowerCase();
+		showItem(x);
+		
+	}
+	function showItem(x) {
+		for(let container of li){
+			let product = container.children[1].children[0].innerHTML;
+			let name = product.toLowerCase();
+			if (name.search(x) > -1)
+			{
+				container.style.display = "";
+			}else{
+				container.style.display = "none";
+			}
+		}
+	}
+	// Voice Search
+	mic.onclick = ()=> {
+			mic.classList.add('record');
+			let recognition = new webkitSpeechRecognition;
+			recognition.lang = 'en-US';
+			recognition.start();
+			recognition.onresult = (e)=>{
+				const m = search.value = e.results[0][0].transcript;
+				showItem(m);
+				mic.classList.remove('record');
+			}
+
+		}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
