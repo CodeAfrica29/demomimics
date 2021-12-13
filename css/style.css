@@ -142,11 +142,9 @@ display: block;
 width: 100%;
 position: relative;
 z-index: 99;
-padding:15px;
 border:black;
 border-width:1px;
 border-style:solid;
-text-align: center;
 }
 
 .header .item-left{
