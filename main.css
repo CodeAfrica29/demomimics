@@ -429,7 +429,7 @@ section{
 /* footer */
 .footer{
     text-align: center;
-    background: var(--black);
+    background: #007bff;
     color: var(--white-smoke);
     padding: 2rem 0;
     height: 50vh;
@@ -452,7 +452,7 @@ section{
     transition: var(--transition);
 }
 .footer-links a:hover{
-    background:  #0000ff;
+    background:  #007bff;
 }
 
 
