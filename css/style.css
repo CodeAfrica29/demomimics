@@ -141,10 +141,6 @@ a{
 display: block;
 width: 100%;
 z-index: 99;
-border:black;
-border-width:1px;
-border-style:solid;
-text-align:center;
 }
 
 .header .item-left{
