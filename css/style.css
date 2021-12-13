@@ -140,11 +140,11 @@ a{
 .header{
 display: block;
 width: 100%;
-position: relative;
 z-index: 99;
 border:black;
 border-width:1px;
 border-style:solid;
+text-align:center;
 }
 
 .header .item-left{
