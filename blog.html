@@ -1,385 +1,460 @@
-<html>
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/products.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- header -->
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Mimic Crafts Cape</title>
-</head>
-
-<body>
-
-    <!-- Header section -->
-<div class="container-fluid bg-primary Header fixed-top">
-    <div class="row py-2 d-flex">
-        <!-- Logo -->
-        <!-- Logo -->
-        <div class="col logo offset-lg-1">
-
-            <a href="index.html">
-                <p font-size="10rem" style="color: white;">Mimic Crafts Cape</p>
-            </a>
-        </div>
-
-        <!-- Search -->
-        <div class="col col-md-4  search d-flex dropdown bg-white">
-            <input class="form-control dropdown-toggle" type="search" placeholder="Search for products, brands and more"
-                aria-label="Search" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-            <i class="fa fa-search mt-2 ml-sm-1 text-primary"></i>
-            <div class="dropdown-menu col-12 search-item" aria-labelledby="navbarDropdown">
-                <h6 class="ml-4">Discover More</h6>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>LED Indication</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Control Components</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Audible & Visual</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Alarm Annunciators</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Measuring Instruments</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Data Logging General</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Power Loggin & Metering</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Software</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Mimic Panels</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Aviation Lighting Systems</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Other</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Custom Products</a>
-                <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>Services</a>
+        <!-- header start -->
+        <header class="header">
+            <div class=".container">
+                <div class="row v-center">
+                    <div class="header-item item-left">
+                        <div class="logo">
+                            <a href="#">Mimic Crafts Cape</a>
+                        </div>
+                    </div>
+                    <!-- menu start here -->
+                    <div class="header-item item-center">
+                        <div class="menu-overlay">
+                        </div>
+                        <nav class="menu">
+                            <div class="mobile-menu-head">
+                                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="menu-main">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Services<i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img
+                                                    src="https://media.istockphoto.com/photos/server-wiring-picture-id1292281205?b=1&k=20&m=1292281205&s=170667a&w=0&h=riPfhN0wzL_ywXfRMKczjnERkyt2CjlKTpNn1oLwr1w=">
+                                                <h4 class="title">Wiring</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img src="https://media.istockphoto.com/photos/computer-education-training-class-picture-id1210738055?b=1&k=20&m=1210738055&s=170667a&w=0&h=obsRXiCdlYUURz0l783K7VrSgK535j2vUkFfvQ1SIjE="
+                                                    alt="new Product">
+                                                <h4 class="title">Electronic Product Development</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img src="https://images.unsplash.com/photo-1618623266812-f5075ba99663?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2lnbmFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                                    alt="new Product">
+                                                <h4 class="title">Signage</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img src="https://media.istockphoto.com/photos/close-up-of-screen-printing-on-shirts-and-textiles-picture-id1323816546?b=1&k=20&m=1323816546&s=170667a&w=0&h=LQ-h-oaIvP-6IY9uwtTibIqK405zWt3bGGTu31kxwEQ="
+                                                    alt="new Product">
+                                                <h4 class="title">Silk Screening</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img src="https://images.unsplash.com/photo-1615286922420-c6b348ffbd62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW5ncmF2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                                    alt="new Product">
+                                                <h4 class="title">Engraving</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="#">
+                                                <img src="https://images.unsplash.com/photo-1499815022134-5a333f5a299c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFicmljYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                                    alt="new Product">
+                                                <h4 class="title">Fabrication</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+        
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Products<i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="list-item">
+                                            <h4 class="title">LED Indication</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Control Components</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Audible & Visual</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Alarm Annunciators</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Measuring Instruments</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Data Logging</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Mimic Panels</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                            <h4 class="title">Brands</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Power Logging & Metering</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+        
+                                            <h4 class="title">Interface Products</h4>
+                                            <ul>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <img src="https://mimiccomponents.co.za/wp-content/uploads/2021/03/Catch9C4907-31-08-16-09-35-541-225x225.jpg.webp"
+                                                alt="shop">
+                                        </div>
+                                    </div>
+                                </li>
+        
+        
+        
+        
+                                <li class="menu-item-has-children">
+                                    <a href="#">Blog </a>
+        
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Pages <i class="fas fa-angle-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="#">Login</a></li>
+                                            <li><a href="#">Register</a></li>
+                                            <li><a href="#">Faq</a></li>
+                                            <li><a href="#">404 Page</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <input style="height:35px" type="text" placeholder="Search.."><a href="#"><i
+                                            class="fas fa-search"></i></a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- menu end here -->
+                    <div class="header-item item-right">
+        
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <!-- mobile menu trigger -->
+                        <div class="mobile-menu-trigger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <!-- Login -->
-        <div class="col dropdown login">
-            <button class="btn bg-white text-primary" type="button" id="loginMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true">
-                Login
-            </button>
-            <div class="dropdown-menu login-list col-12 aria-labelledby=" loginMenuButton">
-                <div class="d-flex">
-                    <h6 class="ml-md-1">New Customer?</h6>
-                    <a href="#" class="ml-auto mr-2" id="signUp">Sign Up</a>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="d-flex">
-                    <i class="fa fa-user-circle text-primary mt-2 ml-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="">My Profile</a>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="d-flex">
-                    <i class="fa fa-plus text-primary mt-2 ml-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="">My Projects</a>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="d-flex">
-                    <i class="fa fa-book text-primary mt-2 ml-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="">Orders</a>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- More -->
-        <div class="col dropdown more">
-            <a class="btn dropdown-toggle text-white ml-lg-2 ml-sm-0" href="#" role="button" id="moreMenuLink"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                More
-            </a>
-
-            <div class="dropdown-menu more-list" aria-labelledby="moreMenuLink">
-                <div class="d-flex">
-                    <i class="fa fa-bell text-primary ml-md-3 mt-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="#">Notification Preferences</a>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="dropdown-divider"></div>
-                <div class="d-flex">
-                    <i class="fa fa-question-circle text-primary ml-md-3 mt-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="/contact/contact.html">Customer Care</a>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="dropdown-divider"></div>
-                <div class="d-flex">
-                    <i class="fa fa-download text-primary ml-md-3 mt-2" aria-hidden="true"></i>
-                    <a class="dropdown-item" href="#">Download Catalogue</a>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-
-
-    </div>
-</div>
-
-<!--End Header-->
-
-<!--Nav Start-->
-
-<!-- header start -->
-
-
-
-    <div class="mainBody">
-        <div class="sidebar">
-            <div class="sidebar-categories">
-               <a href="../index.html"> <div class="sidebar-category">
-                    <span>Home</span>
-                </div>
-                </a>
-                <div class="sidebar-category">
-                    <span>Contact</span>
-                </div>
-            </div>
-
-            <hr />
-
-            <div class="sidebar-categories">
-                <div class="sidebar-category">
-                    <span></span>
-                </div>
-                <div class="sidebar-category">
-                    <span>LED Indication</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Control Components</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Audible & Visual</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Alarm Annunciators</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Measuring Instruments</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Data Logging General</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Power Logging & Metering</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Software</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Mimic Panels</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Aviation Lighting Systems</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Other</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Custom Products</span>
-                </div>
-                <div class="sidebar-category">
-                    <span>Services</span>
-                </div>
-            
-            </div>
-
-            <hr />
-
-        </div>
+        </header>
+        <!-- header end -->
 
 
         
-        <div class="videos">
-            <h1>Discounted Offers</h1>
-            <div class="videos-container">
 
-                <div class="video">
-                    <div class="video-thumbnail">
-                        <img src="https://mimiccomponents.co.za/wp-content/uploads/2021/03/ME440_1-225x225.png.webp">
-                    </div>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>15% discount on Power Loggers</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
+
+
+
+      
+
+        
+
                 
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>Calculation of ferrite core transformer</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="video">
-            <h1>Electronic And Electrical Project Video</h1>
-            
-            <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
-            <div class="video-details">
-                <div class="title">
-                    <h3>Electronic And Electrical Project Video</h3>
-                </div>
-            </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                    <h1>Electronic And Electrical Project Video</h1>
-                    
-                    <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>Electronic And Electrical Project Video</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                    <h1>Electronic And Electrical Project Video</h1>
-                    
-                    <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>Electronic And Electrical Project Video</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                    <h1>The video element</h1>
-                    
-                    <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>Electronic And Electrical Project Video</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Video</h1>
-                
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <div class="video-details">
-                    <div class="title">
-                        <h3>Electronic And Electrical Project Video</h3>
-                    </div>
-                </div>
-                </div>
-                <div class="video">
-                    <h1>Electronic And Electrical Project Video</h1>
-                    
-                    <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                    <div class="video-details">
+
+
+            <div class = "banner-sub-content">
+                <div  class = "hot-topic">
+                    <img src = "https://images.unsplash.com/photo-1553873002-785d775854c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lyaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt = "">
+
+                    <div class = "hot-topic-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, quae!</p>
                         
-                        <div class="title">
-                            <h3>Electronic And Electrical Project Video</h3>
-                        </div>
+                        <a href = "#">Quote</a>
                     </div>
                 </div>
-                <div class="video">
-                <h1>Electronic And Electrical Project Videot</h1>
+
+                <div class = "hot-topic">
+                    <img src = "https://media.istockphoto.com/photos/nerd-children-wearing-lighted-mind-reading-helmets-picture-id480585411?b=1&k=20&m=480585411&s=170667a&w=0&h=3Dqgn8lO52GM65YrVXIpYLSYI3HT0ouw7U7qFQ4dfSY=" alt = "">
+
+                    <div class = "hot-topic-content">
+                        <h2> Creating Custom Projects</h2>
+
+                        
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, ea.</p>
+                        <a href = "#">Quote</a>
+                    </div>
+                </div>
+
+                <div class="hot-topic">
+                    <img src="https://media.istockphoto.com/photos/nerd-children-wearing-lighted-mind-reading-helmets-picture-id480585411?b=1&k=20&m=480585411&s=170667a&w=0&h=3Dqgn8lO52GM65YrVXIpYLSYI3HT0ouw7U7qFQ4dfSY="
+                        alt="">
                 
-                <iframe width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                    <div class="video-details">
-                        <div class="title">
-                            <h3>Electronic And Electrical Project Video</h3>
-                        </div>
+                    <div class="hot-topic-content">
+                        <h2> Creating Custom Projects</h2>
+                
+                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, delectus.</p>
+                        <a href="#">Quote</a>
                     </div>
                 </div>
+    <div class="hot-topic">
+    <img src="https://media.istockphoto.com/photos/nerd-children-wearing-lighted-mind-reading-helmets-picture-id480585411?b=1&k=20&m=480585411&s=170667a&w=0&h=3Dqgn8lO52GM65YrVXIpYLSYI3HT0ouw7U7qFQ4dfSY="
+        alt="">
 
-            </div>
-        </div>
+    <div class="hot-topic-content">
+        <h2> Creating Custom Projects</h2>
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, architecto. </p>
+        <a href="#">Quote</a>
     </div>
+</div>
+            </div>
+        </section>
+        
+        <hr>
 
+        <main>
+            <section class = "main-container-left">
+                <h2>Weekly Sale</h2>
+                <div class = "container-top-left">
+                    <article>
+                        <img src = "https://mimiccomponents.co.za/wp-content/uploads/2021/07/Refuge-Bay-Box-225x225.png.webp">
 
+                        <div>Refuge Bay Box 15% Discount</h3>
 
+                            <p>This unit indicates the location/position of a refuge bay chamber commonly used in mines to mark emergency assembly
+                            points underground.</p>
+                        </div>
+                    </article>
+                </div>
 
-</body>
+                <div class = "container-bottom-left">
 
+                    <article>
+                        <img src="https://mimiccomponents.co.za/wp-content/uploads/2021/01/adda-vue-16-1-24D-225x225.png.webp">
+                        <div>
+                            <h3>VUE-16-1P-24D</h3>
+                            <p>The ADDA VUE16-1P-24D includes: Jumper select -able color per window (Red/Green/Amber), 34mA / window @ 24V DC (Amber)
+                            and only 17mA for Red/Green, Removable terminals, User laser printable indicator window insert, Fully solid state - life
+                            expectancy > 150 000Hours, Standard DIN size Bezel (96x192) & Cutout size (90x183), common positive.
+                            The ADDA VUE16-1N-24D LED BACKLIT INDICATOR SYSTEM for use with PLC’s and alarm annunciators.</p>
+                    
+                            <a href="#">Read More <span>>></span></a>
+                        </div>
+                    </article>
+                   
+
+                    <article>
+                        <img src = "https://mimiccomponents.co.za/wp-content/uploads/2021/06/img_detail_1_big_670-225x225.jpg.webp">
+                        <div>
+                            <h3>QTG70ML-WIZ</h3>
+                            <p>Ideal solution for building smart factories with state of the art technology
+                            Wireless monitoring and control of signal tower light via PC or smartphone
+                            WIZ series can integrate mismatch among old machineries, latest equipment and various brands</p>
+
+                            <a href = "#">Read More <span>>></span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class = "main-container-right">
+                <h2>Videos</h2>
+                
+                <article>
+                    <h4>View </h4>
+                    <div>
+                        <h2>Electronic component connected</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                    </div>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                </article>
+
+            <article>
+                <h4>View </h4>
+                <div>
+                    <h2>Electronic component connected</h2>
+            
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                </div>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            
+            </article>
+
+                <article>
+                    <h4>View </h4>
+                    <div>
+                        <h2>Electronic component connected</h2>
+                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                    </div>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                
+                </article>
+
+                <article>
+                    <h4>View </h4>
+                    <div>
+                        <h2>Electronic component connected</h2>
+                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                    </div>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                
+                </article>
+
+                <article>
+                    <h4>View</h4>
+                    <div>
+                        <h2>Electronic component connected</h2>
+                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                    </div>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                
+                </article>
+            </section>
+        </main>
+
+        <div class="main-wrapp">
+            <div class="footer-wrap">
+                <div class="footer-wrap-1">
+                    <div class="footer-section">
+                        <h1>About</h1>
+                        <a href="#">Services</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">About</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Resources</h1>
+                        <a href="#">Downloads</a>
+                        <a href="#">Bulk Buying</a>
+                        <a href="#">Videos</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Contact</h1>
+                        <a href="#">Help</a>
+                        <a href="#">Sales</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Keep Informed</h1>
+                        <p>Subscribe to our newsletter to receive latest news.</p>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-wrap-2">
+                    <div class="line"></div>
+                    <div class="social-link">
+                        
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </body>
 </html>
