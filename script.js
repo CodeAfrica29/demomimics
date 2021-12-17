@@ -357,6 +357,60 @@ $('nav ul li').click(function(){
 
 
 
+const btnHam = document.querySelector('.ham-btn');
+const btnTimes = document.querySelector('.times-btn');
+const navBar = document.getElementById('nav-bar');
+
+btnHam.addEventListener('click', function(){
+    if(btnHam.className !== ""){
+        btnHam.style.display = "none";
+        btnTimes.style.display = "block";
+        navBar.classList.add("show-nav");
+    }
+})
+
+btnTimes.addEventListener('click', function(){
+    if(btnHam.className !== ""){
+        this.style.display = "none";
+        btnHam.style.display = "block";
+        navBar.classList.remove("show-nav");
+    }
+})
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+$(".owl-carousel").owlCarousel({
+
+autoPlay: 3000,
+items : 4,
+itemsDesktop : [1199,3],
+itemsDesktopSmall : [979,3],
+center: true,
+nav:true,
+loop:true,
+responsive: {
+600: {
+items: 4
+}
+}
+
+
+
+
+
+
+});
+
+});
+
+
+
 
 
 	
