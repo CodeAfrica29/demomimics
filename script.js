@@ -110,7 +110,9 @@ $(function () {
 
 
 
-const menu = document.querySelector(".menu");
+
+
+ const menu = document.querySelector(".menu");
  const menuMain = menu.querySelector(".menu-main");
  const goBack = menu.querySelector(".go-back");
  const menuTrigger = document.querySelector(".mobile-menu-trigger");
@@ -167,8 +169,6 @@ const menu = document.querySelector(".menu");
 
  	}
  }
-
-
 
 
 
