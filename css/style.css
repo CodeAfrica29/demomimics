@@ -387,6 +387,13 @@ a{
 
 
 
+.carousel-inner {
+    height: 340px;
+}
+
+.carousel-item img {
+    height: 290px;
+}
 
 
 
