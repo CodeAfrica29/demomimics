@@ -473,9 +473,10 @@ table.shoping-cart-table tr td:last-child {
   font-size: 10px;
 }
 .product-images {
-  margin: 0 20px;
+ margin: 0 20px;
  width: 100%;
  height:150px;
+object-fit:cover;
 }
 
 .ibox {
