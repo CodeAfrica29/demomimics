@@ -268,146 +268,78 @@
 
 
 
-<nav class="navigation">
-	<ul class="mainmenu">
-		<li><a href="">
-				<h4 style="color:#ffffff">Our Products</h4>
-			</a>
-		</li>
-		<li><a href="">LED Indication</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Control Components</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Audible & Visual</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Alarm Annunciators</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Measuring Instruments</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Data Logging General</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Power Logging</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Software</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Mimic Panels</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Aviation Lighting Systems</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Other</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Custom Prodcts</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-		<li><a href="">Services</a>
-			<ul class="submenu">
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</li>
-	</ul>
-</nav>
-
-
+<style>
+        body {
+            margin: 0;
+            font-family: "Lato", sans-serif;
+        }
+    
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 170px;
+            background-color: blue;
+            position: fixed;
+            right: 20px;
+            height: 100%;
+            overflow: auto;   
+        }
+    
+        .sidebar a {
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+        }
+    
+        .sidebar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+    
+        .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    
+        div.content {
+            margin-right: 300px;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+    
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+    
+            .sidebar a {
+                float: right;
+            }
+    
+            div.content {
+                margin-right: 0;
+            }
+        }
+    
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+    </style>
+    
+    
+    
+        <div class="sidebar">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
 
 
 
