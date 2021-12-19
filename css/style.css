@@ -712,5 +712,12 @@ form .btn{
     margin-right:20px;
 }
 
+.fit{
+width: 100%;
+height: 150px;
+object-fit: cover;
+	
+}
+
 
 
