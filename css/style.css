@@ -606,7 +606,7 @@ object-fit:cover;
 }
 .footer-wrap{
     position: relative;
-    margin-top:320px; /*you can remove or edit this margin-top property when you are using this footer on your project. */
+    margin-top:200px; /*you can remove or edit this margin-top property when you are using this footer on your project. */
     width:100%;
     padding:40px;
     background: #007bff;
@@ -719,7 +719,7 @@ object-fit: cover;
 	
 }
 
-heds{
+.heds{
 text-align:center;
 padding-bottom: 15px;
 
