@@ -416,5 +416,11 @@ table.shoping-cart-table tr td:last-child {
   -webkit-transition: all 0.10s ease-out;
 }
 
+.heds{
+  text-align: center;
+  padding-bottom:15px;
+  
+}
+
 
 
