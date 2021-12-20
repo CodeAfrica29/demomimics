@@ -500,7 +500,7 @@
 
 
         <div style="float:left" class="container">
-                <h3 class="heds">Alarm Annunciators</h3>
+                <h3 class="heds">Audible & Visual</h3>
                 <div class="row">
                         <div class="col-md-3">
                                 <div class="ibox">
@@ -511,14 +511,14 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="LED-Indication/led-indication.html"
-                                                                class="product-name">LED INDICATION</a>
+                                                        <a href="#"
+                                                                class="product-name">Commercial and Fire Buzzers</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Cum, saepe.
                                                         </div>
                                                         <div class="m-t text-righ">
-                                                                <a href="LED-Indication/led-indication.html"
+                                                                <a href="#"
                                                                         class="btn btn-xs btn-outline btn-primary">View
                                                                         All
                                                                 </a>
@@ -536,7 +536,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Control Components</a>
+                                                        <a href="#" class="product-name"> Economic Sounders</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur, adipisicing
                                                                 elit. Officia, error.
@@ -559,7 +559,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Alarm Annunciators</a>
+                                                        <a href="#" class="product-name">Industrial Sounders</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Ex, harum?
@@ -582,7 +582,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Measuring Instruments</a>
+                                                        <a href="#" class="product-name"> Heavy Duty Sounders</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet, consectetur adipisicing
                                                                 elit. Quis, ad.
@@ -605,7 +605,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Data Logging General</a>
+                                                        <a href="#" class="product-name"> Airhorns & Sirens</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Illum, totam.
@@ -628,7 +628,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Power Logging & Metering</a>
+                                                        <a href="#" class="product-name"> Combo Units</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Voluptatibus, veritatis?
@@ -651,7 +651,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Software</a>
+                                                        <a href="#" class="product-name"> LED Safety Lighting</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Dolorem, est!
@@ -674,7 +674,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="#" class="product-name"> Mimic Panels</a>
+                                                        <a href="#" class="product-name"> Encapsulated LED Warning Lights</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem, ipsum dolor sit amet consectetur adipisicing
                                                                 elit. Architecto, distinctio?
@@ -697,8 +697,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="air.html" class="product-name"> Aviation Lighting
-                                                                Systems</a>
+                                                        <a href="air.html" class="product-name"> LED Robot/Traffic Lights</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Autem, laborum.
@@ -721,7 +720,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="other.html" class="product-name"> Other</a>
+                                                        <a href="other.html" class="product-name"> Specialised Lighting</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor, sit amet consectetur adipisicing
                                                                 elit. Eius, obcaecati?
@@ -744,7 +743,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="project.html" class="product-name"> Custom Products</a>
+                                                        <a href="project.html" class="product-name"> Modular Tower Lights</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing
                                                                 elit. Assumenda, facere.
@@ -767,7 +766,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="services.html" class="product-name"> Services</a>
+                                                        <a href="services.html" class="product-name"> Filament Rotary Lights</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                                                 Dicta, tempora!
@@ -790,7 +789,7 @@
                                                                 alt="">
                                                 </div>
                                                 <div class="product-desc">
-                                                        <a href="specials.html" class="product-name"> Special Offers</a>
+                                                        <a href="specials.html" class="product-name"> Strobe Lights</a>
                                                         <div class="small m-t-xs">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing
                                                                 elit. Assumenda, facere.
@@ -805,29 +804,6 @@
                                 </div>
                         </div>
 
-
-                        <div class="col-md-3">
-                                <div class="ibox">
-                                        <div class="ibox-content product-box active">
-                                                <div class="product-imitation">
-                                                        <img class="fit"
-                                                                src="https://media.istockphoto.com/photos/light-bulb-puzzle-pieces-forming-the-word-brand-on-blue-background-picture-id1272969812?b=1&k=20&m=1272969812&s=170667a&w=0&h=Jzv8_iSw8FlAI93SKOq3YCai4K3xEn5zw8HFj5RfvzA="
-                                                                alt="">
-                                                </div>
-                                                <div class="product-desc">
-                                                        <a href="brands/brands.html" class="product-name"> Brands</a>
-                                                        <div class="small m-t-xs">
-                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                Dicta, tempora!
-                                                        </div>
-                                                        <div class="m-t text-righ">
-                                                                <a href="brands/brands.html" class="btn btn-xs btn-outline btn-primary">View
-                                                                        All</i> </a>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
                 </div>
         </div>
 
