@@ -407,7 +407,7 @@ a{
 
 .cart-product-imitation {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
   height: 80px;
   width: 80px;
   object-fit: cover;
@@ -450,7 +450,7 @@ table.shoping-cart-table tr td:last-child {
   width: 80px;
 }
 .product-name {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   color: black;
   display: block;
