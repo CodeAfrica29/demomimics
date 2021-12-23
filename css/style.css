@@ -551,7 +551,7 @@ padding-right:60px;
 /* make ALL links (main and submenu) have padding and background color */
 .mainmenu a {
   display: block;
-  background-color: #007bff;
+  background-color: #00BFFF;
   text-decoration: none;
   padding: 10px;
   color: black;
